@@ -11,5 +11,6 @@ public class PruebaControl
 	{
 		Control control = new Control();
 		control.testForArray();
+		System.out.println("Hello world");
 	}
 }

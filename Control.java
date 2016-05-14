@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
  * Clase de estructuras de control.
  *
  * @author Jhoan Munoz
+ *Descargado por Johan Córdoba 
  */
 public class Control
 {
@@ -15,34 +16,6 @@ public class Control
 		{
 			JOptionPane.showMessageDialog(null, number);
 		}
-	}
-
-	public void testFor(int value)
-	{
-		for (int aux = value; aux > 0; aux--)
-		{
-			JOptionPane.showMessageDialog(null, "Hi");
-		}
-	}
-	
-	public void testWhile(int value)
-	{
-		int aux = value;
-		while(aux > 0)
-		{
-			JOptionPane.showMessageDialog(null, "Hi");
-			aux--;
-		}
-	}
-	
-	public void testDoWhile(int value)
-	{
-		int aux = value;
-		do
-		{
-			JOptionPane.showMessageDialog(null, "Hi");
-			aux--;
-		}while(aux > 0);
 	}
 	
 	public void testSwitch(String day)

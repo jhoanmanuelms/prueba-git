@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
  * Clase principal.
  *
  * @author Jhoan Munoz
+ *Descargado por Johan Córdoba
  */
 public class PruebaControl
 {
@@ -11,6 +12,6 @@ public class PruebaControl
 	{
 		Control control = new Control();
 		control.testForArray();
-		System.out.println("Hello world");
+		System.out.println("Hola Mundo");
 	}
 }
